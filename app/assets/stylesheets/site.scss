@@ -1,0 +1,42 @@
+// Place all the styles related to the site controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.site {
+  background-color: #a75265;
+  height: 100vh;
+
+  .leader {
+    position: relative;
+    top: 40vh;
+  }
+
+  h1 {
+    font-size: 80px;
+    font-weight: bold;
+    color: #ec7263;
+    letter-spacing: -4px;
+    margin-bottom: 0px;
+  }
+
+  h2 {
+    color: #febe7e;
+    margin-top: 0px;
+  }
+
+  .buttons {
+    position: relative;
+    top: 10px;
+
+    .btn-default {
+      background-color: transparent;
+      border: 3px solid #ffedbc;
+      color: #ffedbc;
+    }
+
+    .btn-default:hover {
+      border-color: #ec7263;
+      color: #ec7263;
+    }
+  }
+}
