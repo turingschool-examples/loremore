@@ -1,8 +1,8 @@
 .navbar.navbar-default {
   background-color: #a75265;
-  border: 0px;
-  border-radius: 0px;
-  margin-bottom: 0px;
+  border: 0;
+  border-radius: 0;
+  margin-bottom: 0;
 
   li > a {
     color: #febe7e !important;
@@ -26,4 +26,9 @@
     color: #ec7263;
     font-weight: bold;
   }
+}
+
+.alert {
+  border: 0 !important;
+  border-radius: 0 !important;
 }
