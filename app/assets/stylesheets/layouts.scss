@@ -1,0 +1,29 @@
+.navbar.navbar-default {
+  background-color: #a75265;
+  border: 0px;
+  border-radius: 0px;
+  margin-bottom: 0px;
+
+  li > a {
+    color: #febe7e !important;
+    font-weight: bold;
+  }
+
+  li > a:hover {
+    color: #ec7263 !important;
+  }
+
+  ul {
+    position: relative;
+    top: 2px;
+  }
+
+  a.active {
+    color: #ec7263 !important;
+  }
+
+  a.navbar-brand {
+    color: #ec7263;
+    font-weight: bold;
+  }
+}

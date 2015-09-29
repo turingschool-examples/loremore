@@ -34,7 +34,10 @@
       color: #ffedbc;
     }
 
-    .btn-default:hover {
+    .btn-default:focus,
+    .btn-default:hover,
+    .btn-default:active {
+      background-color: transparent;
       border-color: #ec7263;
       color: #ec7263;
     }
