@@ -1,0 +1,32 @@
+<div class="container-fluid books">
+  <div class="col-md-2">
+  </div>
+  <div class="col-md-8">
+    <div class="row">
+      <div class="col-md-10">
+        <h1>Books</h1>
+      </div>
+      <div class="col-md-2">
+        <%= link_to 'Generate', books_path, method: :post, class: 'btn btn-default btn-lg' %>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <hr>
+        <% if @books.empty? %>
+          <p>You don't have any books. To create some, click on the 'generate' button.</p>
+        <% else %>
+          <% @books.each do |book| %>
+            <div class="book">
+              <h5><%= book.created_at.strftime("%A, %B %d %Y") %></h5>
+              <p><%= book.title %></p>
+              <h4><%= book.author %></h4>
+            </div>
+          <% end %>
+        <% end %>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-2">
+  </div>
+</div>

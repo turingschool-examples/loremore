@@ -1,3 +1,41 @@
 // Place all the styles related to the quotes controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+.quotes {
+  h1 {
+    color: #ec7263;
+    font-weight: bold;
+    letter-spacing: -2px;
+  }
+
+  h4 {
+    color: #a75265;
+  }
+
+  p {
+    color: #777;
+    font-size: 20px;
+  }
+
+  .btn-default {
+    position: relative;
+    top: 15px;
+    border: 3px solid #ec7263;
+    color: #ec7263;
+    background-color: transparent;
+    // color: #ffedbc;
+  }
+
+  .btn-default:focus,
+  .btn-default:hover,
+  .btn-default:active {
+    background-color: transparent;
+    border: 3px solid #febe7e;
+    color: #febe7e;
+  }
+
+  .quote {
+    margin-bottom: 40px;
+  }
+}
